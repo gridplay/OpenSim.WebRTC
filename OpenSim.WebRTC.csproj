@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SIPSorcery" Version="8.0.0" />
+    <PackageReference Include="WebRTCme" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenSim\Framework\Servers\OpenSim.Framework.Servers.csproj" />
+    <ProjectReference Include="..\OpenSim\Region\Application\OpenSim.csproj" />
+    <ProjectReference Include="..\OpenSim\Services\Interfaces\OpenSim.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Addins">
+      <HintPath>..\bin\Mono.Addins.dll</HintPath>
+    </Reference>
+    <Reference Include="Nini">
+      <HintPath>..\bin\Nini.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenMetaverse">
+      <HintPath>..\bin\OpenMetaverse.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenMetaverse.StructuredData">
+      <HintPath>..\bin\OpenMetaverse.StructuredData.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenMetaverseTypes">
+      <HintPath>..\bin\OpenMetaverseTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="xmlrpc">
+      <HintPath>..\bin\XMLRPC.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
