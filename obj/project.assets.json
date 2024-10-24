@@ -2,55 +2,36 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "DnsClient/1.7.0": {
+      "DnsClient/1.6.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Win32.Registry": "5.0.0"
         },
         "compile": {
-          "lib/net6.0/DnsClient.dll": {
+          "lib/net5.0/DnsClient.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/DnsClient.dll": {
+          "lib/net5.0/DnsClient.dll": {
             "related": ".xml"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "Microsoft.NETCore.Platforms/5.0.0": {
@@ -107,7 +88,7 @@
           }
         }
       },
-      "Portable.BouncyCastle/1.9.0": {
+      "Portable.BouncyCastle/1.8.10": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
@@ -291,24 +272,20 @@
           }
         }
       },
-      "SIPSorcery/8.0.0": {
+      "SIPSorcery/6.0.11": {
         "type": "package",
         "dependencies": {
-          "DnsClient": "1.7.0",
-          "Portable.BouncyCastle": "1.9.0",
+          "DnsClient": "1.6.1",
+          "Portable.BouncyCastle": "1.8.10",
           "SIPSorcery.WebSocketSharp": "0.0.1",
-          "SIPSorceryMedia.Abstractions": "1.2.1",
+          "SIPSorceryMedia.Abstractions": "1.2.0",
           "System.Net.WebSockets.Client": "4.3.2"
         },
         "compile": {
-          "lib/net8.0/SIPSorcery.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/SIPSorcery.dll": {}
         },
         "runtime": {
-          "lib/net8.0/SIPSorcery.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/SIPSorcery.dll": {}
         }
       },
       "SIPSorcery.WebSocketSharp/0.0.1": {
@@ -320,16 +297,16 @@
           "lib/netstandard2.0/websocket-sharp.dll": {}
         }
       },
-      "SIPSorceryMedia.Abstractions/1.2.1": {
+      "SIPSorceryMedia.Abstractions/1.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
         },
         "compile": {
-          "lib/net8.0/SIPSorceryMedia.Abstractions.dll": {}
+          "lib/net5.0/SIPSorceryMedia.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/net8.0/SIPSorceryMedia.Abstractions.dll": {}
+          "lib/net5.0/SIPSorceryMedia.Abstractions.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -1561,15 +1538,14 @@
     }
   },
   "libraries": {
-    "DnsClient/1.7.0": {
-      "sha512": "2hrXR83b5g6/ZMJOA36hXp4t56yb7G1mF3Hg6IkrHxvtyaoXRn2WVdgDPN3V8+GugOlUBbTWXgPaka4dXw1QIg==",
+    "DnsClient/1.6.1": {
+      "sha512": "4H/f2uYJOZ+YObZjpY9ABrKZI+JNw3uizp6oMzTXwDw6F+2qIPhpRl/1t68O/6e98+vqNiYGu+lswmwdYUy3gg==",
       "type": "package",
-      "path": "dnsclient/1.7.0",
+      "path": "dnsclient/1.6.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "README.md",
-        "dnsclient.1.7.0.nupkg.sha512",
+        "dnsclient.1.6.1.nupkg.sha512",
         "dnsclient.nuspec",
         "icon.png",
         "lib/net45/DnsClient.dll",
@@ -1578,8 +1554,6 @@
         "lib/net471/DnsClient.xml",
         "lib/net5.0/DnsClient.dll",
         "lib/net5.0/DnsClient.xml",
-        "lib/net6.0/DnsClient.dll",
-        "lib/net6.0/DnsClient.xml",
         "lib/netstandard1.3/DnsClient.dll",
         "lib/netstandard1.3/DnsClient.xml",
         "lib/netstandard2.0/DnsClient.dll",
@@ -1588,48 +1562,15 @@
         "lib/netstandard2.1/DnsClient.xml"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
-      "sha512": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+      "sha512": "/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
-        "PACKAGE.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
-        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
-      "sha512": "arDBqTgFCyS0EvRV7O3MZturChstm50OJ0y9bDJvAcmEPJm0FFpFyjU/JLYyStNGGey081DvnQYlncNX5SJJGA==",
-      "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/8.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
         "analyzers/dotnet/roslyn3.11/cs/Microsoft.Extensions.Logging.Generators.dll",
         "analyzers/dotnet/roslyn3.11/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
@@ -1659,36 +1600,16 @@
         "analyzers/dotnet/roslyn4.0/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
         "analyzers/dotnet/roslyn4.0/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
         "analyzers/dotnet/roslyn4.0/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll",
-        "analyzers/dotnet/roslyn4.4/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "buildTransitive/net461/Microsoft.Extensions.Logging.Abstractions.targets",
-        "buildTransitive/net462/Microsoft.Extensions.Logging.Abstractions.targets",
-        "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "build/Microsoft.Extensions.Logging.Abstractions.targets",
         "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Abstractions.targets",
-        "buildTransitive/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.targets",
-        "lib/net462/Microsoft.Extensions.Logging.Abstractions.dll",
-        "lib/net462/Microsoft.Extensions.Logging.Abstractions.xml",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.xml",
         "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1808,10 +1729,10 @@
         "version.txt"
       ]
     },
-    "Portable.BouncyCastle/1.9.0": {
-      "sha512": "eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
+    "Portable.BouncyCastle/1.8.10": {
+      "sha512": "XLhjNAwuVB9ynwn11l5K44eyozh8q6gFseTrlnLNttejimglX7+F9+vxh60LPjvA/DAt6fUdS43N3ah8K6eaWg==",
       "type": "package",
-      "path": "portable.bouncycastle/1.9.0",
+      "path": "portable.bouncycastle/1.8.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1819,7 +1740,7 @@
         "lib/net40/BouncyCastle.Crypto.xml",
         "lib/netstandard2.0/BouncyCastle.Crypto.dll",
         "lib/netstandard2.0/BouncyCastle.Crypto.xml",
-        "portable.bouncycastle.1.9.0.nupkg.sha512",
+        "portable.bouncycastle.1.8.10.nupkg.sha512",
         "portable.bouncycastle.nuspec"
       ]
     },
@@ -2047,29 +1968,21 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
-    "SIPSorcery/8.0.0": {
-      "sha512": "FL/KA9P2ppJnV19hZu7/8ops1Z1lU+4bXF597hlX3QTmf0ez1+F7utpGkBqT+7FNlMTJ5GEdEfKoAJwBupmDvA==",
+    "SIPSorcery/6.0.11": {
+      "sha512": "LzR9c6wG/G1/eQvQykZtIomX8dra6DX96SHT1ATK/KFXWC6PSTUqzNotHxvWCxV8gaDoMyiiFZwg5W9vzPmADQ==",
       "type": "package",
-      "path": "sipsorcery/8.0.0",
+      "path": "sipsorcery/6.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
         "lib/net461/SIPSorcery.dll",
-        "lib/net461/SIPSorcery.xml",
         "lib/net5.0/SIPSorcery.dll",
-        "lib/net5.0/SIPSorcery.xml",
         "lib/net6.0/SIPSorcery.dll",
-        "lib/net6.0/SIPSorcery.xml",
-        "lib/net8.0/SIPSorcery.dll",
-        "lib/net8.0/SIPSorcery.xml",
         "lib/netcoreapp3.1/SIPSorcery.dll",
-        "lib/netcoreapp3.1/SIPSorcery.xml",
         "lib/netstandard2.0/SIPSorcery.dll",
-        "lib/netstandard2.0/SIPSorcery.xml",
         "lib/netstandard2.1/SIPSorcery.dll",
-        "lib/netstandard2.1/SIPSorcery.xml",
-        "sipsorcery.8.0.0.nupkg.sha512",
+        "sipsorcery.6.0.11.nupkg.sha512",
         "sipsorcery.nuspec"
       ]
     },
@@ -2086,20 +1999,19 @@
         "sipsorcery.websocketsharp.nuspec"
       ]
     },
-    "SIPSorceryMedia.Abstractions/1.2.1": {
-      "sha512": "6q111yMTOYHnDxpsskFgQfgcf1dk/jRZzPLi1RiialNW02/VWNaPSS1u5Sqz7E925zZCSFbg/tfTmX2A9NUihg==",
+    "SIPSorceryMedia.Abstractions/1.2.0": {
+      "sha512": "4dYOpvsB3Ir7X6udfeR5sR9tjW7PXUYuiUfdzrwdNwnxwnCQsuZmtvl2kZX362WV7w+j0htrw6sK0qOaoNpQkw==",
       "type": "package",
-      "path": "sipsorcerymedia.abstractions/1.2.1",
+      "path": "sipsorcerymedia.abstractions/1.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
         "lib/net5.0/SIPSorceryMedia.Abstractions.dll",
-        "lib/net8.0/SIPSorceryMedia.Abstractions.dll",
         "lib/netcoreapp3.1/SIPSorceryMedia.Abstractions.dll",
         "lib/netstandard2.0/SIPSorceryMedia.Abstractions.dll",
         "lib/netstandard2.1/SIPSorceryMedia.Abstractions.dll",
-        "sipsorcerymedia.abstractions.1.2.1.nupkg.sha512",
+        "sipsorcerymedia.abstractions.1.2.0.nupkg.sha512",
         "sipsorcerymedia.abstractions.nuspec"
       ]
     },
@@ -4565,7 +4477,7 @@
       "OpenSim >= 1.0.0",
       "OpenSim.Framework.Servers >= 1.0.0",
       "OpenSim.Services.Interfaces >= 1.0.0",
-      "SIPSorcery >= 8.0.0"
+      "SIPSorcery >= 6.0.11"
     ]
   },
   "packageFolders": {
@@ -4624,7 +4536,7 @@
         "dependencies": {
           "SIPSorcery": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[6.0.11, )"
           }
         },
         "imports": [

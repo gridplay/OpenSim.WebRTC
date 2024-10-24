@@ -11,7 +11,7 @@
           "OpenSim": "1.0.0",
           "OpenSim.Framework.Servers": "1.0.0",
           "OpenSim.Services.Interfaces": "1.0.0",
-          "SIPSorcery": "8.0.0",
+          "SIPSorcery": "6.0.11",
           "log4net": "2.0.15.0",
           "Mono.Addins": "1.0.0.0",
           "Nini": "1.1.0.2",
@@ -24,33 +24,22 @@
           "OpenSim.WebRTC.dll": {}
         }
       },
-      "DnsClient/1.7.0": {
+      "DnsClient/1.6.1": {
         "dependencies": {
           "Microsoft.Win32.Registry": "5.0.0"
         },
         "runtime": {
-          "lib/net6.0/DnsClient.dll": {
-            "assemblyVersion": "1.7.0.0",
-            "fileVersion": "1.7.0.0"
+          "lib/net5.0/DnsClient.dll": {
+            "assemblyVersion": "1.6.1.0",
+            "fileVersion": "1.6.1.0"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
-          }
-        }
-      },
-      "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
           }
         }
       },
@@ -69,11 +58,11 @@
           "System.Security.Principal.Windows": "5.0.0"
         }
       },
-      "Portable.BouncyCastle/1.9.0": {
+      "Portable.BouncyCastle/1.8.10": {
         "runtime": {
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
-            "assemblyVersion": "1.9.0.0",
-            "fileVersion": "1.9.0.1"
+            "assemblyVersion": "1.8.10.0",
+            "fileVersion": "1.8.10.1"
           }
         }
       },
@@ -125,18 +114,18 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
-      "SIPSorcery/8.0.0": {
+      "SIPSorcery/6.0.11": {
         "dependencies": {
-          "DnsClient": "1.7.0",
-          "Portable.BouncyCastle": "1.9.0",
+          "DnsClient": "1.6.1",
+          "Portable.BouncyCastle": "1.8.10",
           "SIPSorcery.WebSocketSharp": "0.0.1",
-          "SIPSorceryMedia.Abstractions": "1.2.1",
+          "SIPSorceryMedia.Abstractions": "1.2.0",
           "System.Net.WebSockets.Client": "4.3.2"
         },
         "runtime": {
-          "lib/net8.0/SIPSorcery.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.0"
+          "lib/net6.0/SIPSorcery.dll": {
+            "assemblyVersion": "6.0.11.0",
+            "fileVersion": "6.0.11.0"
           }
         }
       },
@@ -148,14 +137,14 @@
           }
         }
       },
-      "SIPSorceryMedia.Abstractions/1.2.1": {
+      "SIPSorceryMedia.Abstractions/1.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
         },
         "runtime": {
-          "lib/net8.0/SIPSorceryMedia.Abstractions.dll": {
-            "assemblyVersion": "1.2.1.0",
-            "fileVersion": "1.2.1.0"
+          "lib/net5.0/SIPSorceryMedia.Abstractions.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
           }
         }
       },
@@ -1128,26 +1117,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DnsClient/1.7.0": {
+    "DnsClient/1.6.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2hrXR83b5g6/ZMJOA36hXp4t56yb7G1mF3Hg6IkrHxvtyaoXRn2WVdgDPN3V8+GugOlUBbTWXgPaka4dXw1QIg==",
-      "path": "dnsclient/1.7.0",
-      "hashPath": "dnsclient.1.7.0.nupkg.sha512"
+      "sha512": "sha512-4H/f2uYJOZ+YObZjpY9ABrKZI+JNw3uizp6oMzTXwDw6F+2qIPhpRl/1t68O/6e98+vqNiYGu+lswmwdYUy3gg==",
+      "path": "dnsclient/1.6.1",
+      "hashPath": "dnsclient.1.6.1.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-arDBqTgFCyS0EvRV7O3MZturChstm50OJ0y9bDJvAcmEPJm0FFpFyjU/JLYyStNGGey081DvnQYlncNX5SJJGA==",
-      "path": "microsoft.extensions.logging.abstractions/8.0.0",
-      "hashPath": "microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
+      "sha512": "sha512-/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",
@@ -1177,12 +1159,12 @@
       "path": "microsoft.win32.registry/5.0.0",
       "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
     },
-    "Portable.BouncyCastle/1.9.0": {
+    "Portable.BouncyCastle/1.8.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
-      "path": "portable.bouncycastle/1.9.0",
-      "hashPath": "portable.bouncycastle.1.9.0.nupkg.sha512"
+      "sha512": "sha512-XLhjNAwuVB9ynwn11l5K44eyozh8q6gFseTrlnLNttejimglX7+F9+vxh60LPjvA/DAt6fUdS43N3ah8K6eaWg==",
+      "path": "portable.bouncycastle/1.8.10",
+      "hashPath": "portable.bouncycastle.1.8.10.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
@@ -1296,12 +1278,12 @@
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
     },
-    "SIPSorcery/8.0.0": {
+    "SIPSorcery/6.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FL/KA9P2ppJnV19hZu7/8ops1Z1lU+4bXF597hlX3QTmf0ez1+F7utpGkBqT+7FNlMTJ5GEdEfKoAJwBupmDvA==",
-      "path": "sipsorcery/8.0.0",
-      "hashPath": "sipsorcery.8.0.0.nupkg.sha512"
+      "sha512": "sha512-LzR9c6wG/G1/eQvQykZtIomX8dra6DX96SHT1ATK/KFXWC6PSTUqzNotHxvWCxV8gaDoMyiiFZwg5W9vzPmADQ==",
+      "path": "sipsorcery/6.0.11",
+      "hashPath": "sipsorcery.6.0.11.nupkg.sha512"
     },
     "SIPSorcery.WebSocketSharp/0.0.1": {
       "type": "package",
@@ -1310,12 +1292,12 @@
       "path": "sipsorcery.websocketsharp/0.0.1",
       "hashPath": "sipsorcery.websocketsharp.0.0.1.nupkg.sha512"
     },
-    "SIPSorceryMedia.Abstractions/1.2.1": {
+    "SIPSorceryMedia.Abstractions/1.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6q111yMTOYHnDxpsskFgQfgcf1dk/jRZzPLi1RiialNW02/VWNaPSS1u5Sqz7E925zZCSFbg/tfTmX2A9NUihg==",
-      "path": "sipsorcerymedia.abstractions/1.2.1",
-      "hashPath": "sipsorcerymedia.abstractions.1.2.1.nupkg.sha512"
+      "sha512": "sha512-4dYOpvsB3Ir7X6udfeR5sR9tjW7PXUYuiUfdzrwdNwnxwnCQsuZmtvl2kZX362WV7w+j0htrw6sK0qOaoNpQkw==",
+      "path": "sipsorcerymedia.abstractions/1.2.0",
+      "hashPath": "sipsorcerymedia.abstractions.1.2.0.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",
