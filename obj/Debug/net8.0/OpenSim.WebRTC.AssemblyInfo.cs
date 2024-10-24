@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenSim.WebRTC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b070307941cea5b0afd632605d41b9bea70480a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenSim.WebRTC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenSim.WebRTC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

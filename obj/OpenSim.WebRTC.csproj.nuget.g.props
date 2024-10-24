@@ -12,7 +12,4 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\Chris\.nuget\packages\" />
   </ItemGroup>
-  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)webrtcme.bindings.blazor\2.0.0\buildTransitive\WebRTCme.Bindings.Blazor.props" Condition="Exists('$(NuGetPackageRoot)webrtcme.bindings.blazor\2.0.0\buildTransitive\WebRTCme.Bindings.Blazor.props')" />
-  </ImportGroup>
 </Project>

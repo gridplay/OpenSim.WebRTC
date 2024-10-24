@@ -78,6 +78,7 @@ D:\OpenSim\opensim-r1ba9257\OpenSim.WebRTC\obj\Debug\net8.0\OpenSim.WebRTC.Gener
 D:\OpenSim\opensim-r1ba9257\OpenSim.WebRTC\obj\Debug\net8.0\OpenSim.WebRTC.AssemblyInfoInputs.cache
 D:\OpenSim\opensim-r1ba9257\OpenSim.WebRTC\obj\Debug\net8.0\OpenSim.WebRTC.AssemblyInfo.cs
 D:\OpenSim\opensim-r1ba9257\OpenSim.WebRTC\obj\Debug\net8.0\OpenSim.WebRTC.csproj.CoreCompileInputs.cache
+D:\OpenSim\opensim-r1ba9257\OpenSim.WebRTC\obj\Debug\net8.0\OpenSim.WebRTC.sourcelink.json
 D:\OpenSim\opensim-r1ba9257\OpenSim.WebRTC\obj\Debug\net8.0\OpenSim..3C4FE435.Up2Date
 D:\OpenSim\opensim-r1ba9257\OpenSim.WebRTC\obj\Debug\net8.0\OpenSim.WebRTC.dll
 D:\OpenSim\opensim-r1ba9257\OpenSim.WebRTC\obj\Debug\net8.0\refint\OpenSim.WebRTC.dll

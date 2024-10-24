@@ -12,7 +12,6 @@
           "OpenSim.Framework.Servers": "1.0.0",
           "OpenSim.Services.Interfaces": "1.0.0",
           "SIPSorcery": "8.0.0",
-          "WebRTCme": "2.0.0",
           "log4net": "2.0.15.0",
           "Mono.Addins": "1.0.0.0",
           "Nini": "1.1.0.2",
@@ -36,86 +35,6 @@
           }
         }
       },
-      "Macross.Json.Extensions/3.0.0": {
-        "runtime": {
-          "lib/net6.0/Macross.Json.Extensions.dll": {
-            "assemblyVersion": "3.0.0.22164",
-            "fileVersion": "3.0.0.0"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Authorization/8.0.1": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "8.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Options": "8.0.1"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.AspNetCore.Authorization.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.123.58008"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Components/8.0.1": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "8.0.1",
-          "Microsoft.AspNetCore.Components.Analyzers": "8.0.1"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.AspNetCore.Components.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.123.58008"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Components.Analyzers/8.0.1": {},
-      "Microsoft.AspNetCore.Components.Forms/8.0.1": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Components": "8.0.1"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.AspNetCore.Components.Forms.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.123.58008"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Components.Web/8.0.1": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Components": "8.0.1",
-          "Microsoft.AspNetCore.Components.Forms": "8.0.1",
-          "Microsoft.Extensions.DependencyInjection": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0",
-          "Microsoft.JSInterop": "8.0.1",
-          "System.IO.Pipelines": "8.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.AspNetCore.Components.Web.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.123.58008"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Metadata/8.0.1": {
-        "runtime": {
-          "lib/net8.0/Microsoft.AspNetCore.Metadata.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.123.58008"
-          }
-        }
-      },
-      "Microsoft.Extensions.DependencyInjection/8.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
-          }
-        }
-      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -132,34 +51,6 @@
           "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.23.53103"
-          }
-        }
-      },
-      "Microsoft.Extensions.Options/8.0.1": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "8.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Options.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.123.58001"
-          }
-        }
-      },
-      "Microsoft.Extensions.Primitives/8.0.0": {
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
-          }
-        }
-      },
-      "Microsoft.JSInterop/8.0.1": {
-        "runtime": {
-          "lib/net8.0/Microsoft.JSInterop.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.123.58008"
           }
         }
       },
@@ -352,14 +243,6 @@
       "System.IO.FileSystem.Primitives/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
-        }
-      },
-      "System.IO.Pipelines/8.0.0": {
-        "runtime": {
-          "lib/net8.0/System.IO.Pipelines.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
-          }
         }
       },
       "System.Linq/4.3.0": {
@@ -733,37 +616,6 @@
           "Microsoft.NETCore.Platforms": "5.0.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-        }
-      },
-      "WebRTCme/2.0.0": {
-        "dependencies": {
-          "Macross.Json.Extensions": "3.0.0",
-          "Microsoft.AspNetCore.Components": "8.0.1",
-          "Microsoft.AspNetCore.Components.Web": "8.0.1",
-          "Microsoft.JSInterop": "8.0.1",
-          "WebRTCme.Bindings.Blazor": "2.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/WebRTCme.Api.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
-          },
-          "lib/net8.0/WebRTCme.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "WebRTCme.Bindings.Blazor/2.0.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Components": "8.0.1",
-          "Microsoft.AspNetCore.Components.Web": "8.0.1"
-        },
-        "runtime": {
-          "lib/net8.0/WebRTCme.Bindings.Blazor.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
-          }
         }
       },
       "OpenSim/1.0.0": {
@@ -1283,62 +1135,6 @@
       "path": "dnsclient/1.7.0",
       "hashPath": "dnsclient.1.7.0.nupkg.sha512"
     },
-    "Macross.Json.Extensions/3.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-AkNshs6dopj8FXsmkkJxvLivN2SyDJQDbjcds5lo9+Y6L4zpcoXdmzXQ3VVN+AIWQr0CTD5A7vkuHGAr2aypZg==",
-      "path": "macross.json.extensions/3.0.0",
-      "hashPath": "macross.json.extensions.3.0.0.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Authorization/8.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-RYBk9d+Zb6V2u2hpgSSlCTvV6HvNf8T8OA7coLn+J4sdWLbdVkb8/b2tpRRENTGXK31ayCvtUPhP4wv2ZMn4cQ==",
-      "path": "microsoft.aspnetcore.authorization/8.0.1",
-      "hashPath": "microsoft.aspnetcore.authorization.8.0.1.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Components/8.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-nHn5ZSyL/5HAa2Lh9CCInxMvIBsifLbkt3GkeiIdWe4uWhjZ+O/ykD1wjKoUnjVsrinaO2OZocqujXk2jnE+8g==",
-      "path": "microsoft.aspnetcore.components/8.0.1",
-      "hashPath": "microsoft.aspnetcore.components.8.0.1.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Components.Analyzers/8.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-8+Cv84+XYd/xKaAPAZvJBg9ZKxpH7sszs5MjsGOw3inmDa3MOlGHBkSbki2AzMuK0kpj9vu9mWhcJf7/6Jd8qQ==",
-      "path": "microsoft.aspnetcore.components.analyzers/8.0.1",
-      "hashPath": "microsoft.aspnetcore.components.analyzers.8.0.1.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Components.Forms/8.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OT05sVxJVJG8+ODSOadxy0UWBnFMu4Wb3XszqRRaGhcaCe4lEIxg9OjR8zo77r6w/AI9LoT/Enou+v02q7yZOA==",
-      "path": "microsoft.aspnetcore.components.forms/8.0.1",
-      "hashPath": "microsoft.aspnetcore.components.forms.8.0.1.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Components.Web/8.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-EcM5S0goZOMZckt87Bb7IAbDivtMzw2DdtMLgO/87WH4NZTHLuHykNtufIWsR1ZTbSR8RfBeEE0QuAagnTsAWg==",
-      "path": "microsoft.aspnetcore.components.web/8.0.1",
-      "hashPath": "microsoft.aspnetcore.components.web.8.0.1.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Metadata/8.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-8Uyh4D/9Z9xfL1f6Ap9Y12q/JU717sqWNMxCD7lytyK28YFtLIYG1jSCQOq+TvPDzgIaaGXGtLq+lM8fcAisMg==",
-      "path": "microsoft.aspnetcore.metadata/8.0.1",
-      "hashPath": "microsoft.aspnetcore.metadata.8.0.1.nupkg.sha512"
-    },
-    "Microsoft.Extensions.DependencyInjection/8.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-V8S3bsm50ig6JSyrbcJJ8bW2b9QLGouz+G1miK3UTaOWmMtFwNNNzUf4AleyDWUmTrWMLNnFSLEQtxmxgNQnNQ==",
-      "path": "microsoft.extensions.dependencyinjection/8.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512"
-    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1352,27 +1148,6 @@
       "sha512": "sha512-arDBqTgFCyS0EvRV7O3MZturChstm50OJ0y9bDJvAcmEPJm0FFpFyjU/JLYyStNGGey081DvnQYlncNX5SJJGA==",
       "path": "microsoft.extensions.logging.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Options/8.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-wmpp+BSU3oGifaev6Z9rrlwHoITLFfpVOSbgBrOXjkbJSCXnZVCsoRGE5c3fJFI4VlNgnNkNlI9y+5jC4fmOEA==",
-      "path": "microsoft.extensions.options/8.0.1",
-      "hashPath": "microsoft.extensions.options.8.0.1.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Primitives/8.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
-      "path": "microsoft.extensions.primitives/8.0.0",
-      "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
-    },
-    "Microsoft.JSInterop/8.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ePBj1uoRa+KZnkQwB3Cjxq025QT+erIcDgbDgc+yGb0FCzrE38gSBWMfbwlASPX1fifMnCwHzYvt2/gUFVp3qw==",
-      "path": "microsoft.jsinterop/8.0.1",
-      "hashPath": "microsoft.jsinterop.8.0.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",
@@ -1612,13 +1387,6 @@
       "path": "system.io.filesystem.primitives/4.3.0",
       "hashPath": "system.io.filesystem.primitives.4.3.0.nupkg.sha512"
     },
-    "System.IO.Pipelines/8.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA==",
-      "path": "system.io.pipelines/8.0.0",
-      "hashPath": "system.io.pipelines.8.0.0.nupkg.sha512"
-    },
     "System.Linq/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1849,20 +1617,6 @@
       "sha512": "sha512-Z6YfyYTCg7lOZjJzBjONJTFKGN9/NIYKSxhU5GRd+DTwHSZyvWp1xuI5aR+dLg+ayyC5Xv57KiY4oJ0tMO89fQ==",
       "path": "system.threading.timer/4.3.0",
       "hashPath": "system.threading.timer.4.3.0.nupkg.sha512"
-    },
-    "WebRTCme/2.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-suoDFVUlpHK7Ve8UYefpkwQ6E3gKA9ZlGzJsJVhX566B6LTMPhaaeIiBc+RF3IkQ4gqAD9NUQof2fzGbbymlBQ==",
-      "path": "webrtcme/2.0.0",
-      "hashPath": "webrtcme.2.0.0.nupkg.sha512"
-    },
-    "WebRTCme.Bindings.Blazor/2.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OCg50dSuhZBJfqYjJJ+DvbCwxMi2XwsHhbeaSyFsmZE2l5aZbDR0u9RHNjBVbPXhk1ZVhelrx1lR7D5RqY5hZA==",
-      "path": "webrtcme.bindings.blazor/2.0.0",
-      "hashPath": "webrtcme.bindings.blazor.2.0.0.nupkg.sha512"
     },
     "OpenSim/1.0.0": {
       "type": "project",
